@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    font-family: "Poppins", serif;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.no-scrollbar::-webkit-scrollbar-track {
+  background: #191A27;
+  border-radius: 10px;
+}
+
+.no-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #c6c8c87c;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
