@@ -24,7 +24,15 @@ const GoogleCallback = () => {
     handleCallback();
   }, [navigate]);
 
-  return <div className="p-4 text-center">Processing...</div>;
+  return (
+    <div className="flex items-center justify-center h-screen  bg-gradient-to-r from-[#020000] to-[#0B0B20]">
+      <img
+        src="/assets/gif/loader/loading.gif"
+        alt="Loading"
+        className="invert"
+      />
+    </div>
+  );
 };
 
 export default GoogleCallback;

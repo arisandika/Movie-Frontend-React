@@ -83,8 +83,8 @@ const Login = () => {
               Create new Account
             </Button>
           </Link>
-          <div className="px-4 py-1">
-            <Separator className="px-5 bg-secondary/20" />
+          <div className="px-4">
+            <Separator className="bg-secondary/20" />
           </div>
           <Button
             type="button"
