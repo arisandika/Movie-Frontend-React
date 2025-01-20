@@ -70,8 +70,8 @@ const Home = () => {
   return (
     <div className="px-4 md:px-32">
       <UserHeader user={user} onLogout={handleLogout} />
-      <SearchInput />
       <CarouselSection />
+      <SearchInput />
       <GenreSection />
       <section className="mt-6">
         <h2 className="mb-4 text-lg font-semibold text-light">
